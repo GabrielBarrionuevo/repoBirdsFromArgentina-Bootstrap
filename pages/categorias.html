@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link a Wow -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Fuentes  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <!-- -------  -->
+    <title>Tercera Entrega</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <!-- Menu de navegación -->
+        <!-- <h1 class="tituloPrincipal">Birds from Argentina</h1> -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Birds from Argentina</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <img class="iconoMenu" src="../ico/menu.png" alt="">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="caracteristicas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Características
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="caracteristicas.html#miradas">Miradas</a></li>
+                                <li><a class="dropdown-item" href="caracteristicas.html#plumas">Plumas</a></li>
+                                <li><a class="dropdown-item" href="caracteristicas.html#picos">Picos</a></li>
+                                <li><a class="dropdown-item" href="caracteristicas.html#nidos">Nidos</a></li>
+                                <li><a class="dropdown-item" href="caracteristicas.html#patas">Patas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="categorias.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="categorias.html#NorteArgentino">Norte Argentino</a></li>
+                                <li><a class="dropdown-item" href="categorias.html#CentroArgentino">Centro Argentino</a></li>
+                                <li><a class="dropdown-item" href="categorias.html#SurArgentino">Sur Argentino</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactMe.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <main class="main">
+        <!-- Area de bienvenida -->
+        <section class="areaEncabezado">
+            <h2 class="areaEncabezado__titulo encabezadoAparecer wow animate__animated animate__pulse">Categorias!</h2>
+            <p class="areaEncabezado__texto encabezadoAparecer wow animate__animated animate__pulse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, totam. Maxime alias possimus delectus, fuga nobis libero harum doloribus recusandae atque at veritatis eaque quibusdam repudiandae, tenetur velit obcaecati? Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod error magnam rerum amet harum culpa! Dolore similique nisi dolores ipsum? Laboriosam praesentium soluta nemo. Culpa tempore quidem molestiae quam?</p>
+        </section>
+
+        <div id="NorteArgentino"></div>
+        <!-- Prepuna, puna y Altos Andes -->
+        <section class="areaPrincipal" id="prepuna_puna_altosAndes">
+            <h3 class="areaPrincipal__titulo col-12">Prepuna, Puna y Altos Andes</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoGrande1">
+                    <img src="../img/Areas - Prepuna, puna, alAn - Carpintero andino.jpg" alt="Tacuarita Lorem" title="Tacuarita Lorem " class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoChico1">
+                    <img src="../img/Areas - Prepuna, puna, alAn - Parina Grande.jpg" alt="Picaflor Esmeralda" title="Picaflor Esmeralda" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Yunga -->
+        <section class="areaPrincipal" id="yunga">
+            <h3 class="areaPrincipal__titulo">Yunga</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoChico2">
+                    <img src="../img/Areas - Yunga - Cerquero de Collar.jpg" alt="Martin Pescador" title="Martin Pescador" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoGrande2">
+                    <img src="../img/Areas - Yunga - Mirlo de Agua.jpg" alt="Cabures" title="Cabures" class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>    
+            </div>
+        </section>
+
+        <!-- Chaco -->
+        <section class="areaPrincipal" id="chaco">
+            <h3 class="areaPrincipal__titulo">Chaco</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoGrande1">
+                    <img src="../img/Areas - Chacho - Yetepa de Collar.jpg" alt="Tacuarita Lorem" title="Tacuarita Lorem " class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoChico1">
+                    <img src="../img/Areas - Chacho - Guaicuru.jpg" alt="Picaflor Esmeralda" title="Picaflor Esmeralda" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+        </section>
+
+        <div id="CentroArgentino"></div>
+        <!-- Selva Misionera -->
+        <section class="areaPrincipal" id="selva_misionera">
+            <h3 class="areaPrincipal__titulo">Selva Misionera</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoChico2">
+                    <img src="../img/Areas - Selva - Alcon Montes Grande.jpg" alt="Martin Pescador" title="Martin Pescador" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoGrande2">
+                    <img src="../img/Areas - Selva - Harpia.jpg" alt="Cabures" title="Cabures" class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>    
+            </div>
+        </section>
+
+        <!-- Matorrales del Monte -->
+        <section class="areaPrincipal" id="matorralesDelMonte">
+            <h3 class="areaPrincipal__titulo">Matorrales del Monte</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoGrande1">
+                    <img src="../img/Areas - MatMonte - ColuditoColaNegra.jpg" alt="Tacuarita Lorem" title="Tacuarita Lorem " class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoChico1">
+                    <img src="../img/Areas - MatMonte - Soldadito Comun.jpg" alt="Picaflor Esmeralda" title="Picaflor Esmeralda" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Llanura Bonaerense -->
+        <section class="areaPrincipal" id="llanura_bonaerense">
+            <h3 class="areaPrincipal__titulo">Llanura Bonaerense</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoChico2">
+                    <img src="../img/Areas - LlaBona - Espatula Rosada.jpg" alt="Martin Pescador" title="Martin Pescador" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoGrande2">
+                    <img src="../img/Areas - LlaBona - Lechucita Vizcachera.jpg" alt="Cabures" title="Cabures" class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>    
+            </div>
+        </section>
+
+        <!-- Ribera Platense -->
+        <section class="areaPrincipal" id="ribera_platense">
+            <h3 class="areaPrincipal__titulo">Ribera Platense</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoGrande1">
+                    <img src="../img/Areas - RibPlat - Burrito Colorado.jpg" alt="Tacuarita Lorem" title="Tacuarita Lorem " class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoChico1">
+                    <img src="../img/Areas - RibPlat - Hoco Colorado.jpg" alt="Picaflor Esmeralda" title="Picaflor Esmeralda" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+        </section>
+
+        <div id="SurArgentino"></div>
+        <!-- Bosques Subantárticos -->
+        <section class="areaPrincipal" id="bosques_subantárticos">
+            <h3 class="areaPrincipal__titulo">Bosques Subantárticos</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoChico2">
+                    <img src="../img/Areas - BosSubAnt - Diucon.jpg" alt="Martin Pescador" title="Martin Pescador" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoGrande2">
+                    <img src="../img/Areas - BosSubAnt - Pato de Torrente.jpg" alt="Cabures" title="Cabures" class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>    
+            </div>
+        </section>
+
+        <!-- Estepa Patagónica -->
+        <section class="areaPrincipal" id="estepa_patagonica">
+            <h3 class="areaPrincipal__titulo">Estepa Patagónica</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoGrande1">
+                    <img src="../img/Areas - EstPat - Calandria Patagonica.jpg" alt="Tacuarita Lorem" title="Tacuarita Lorem " class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoChico1">
+                    <img src="../img/Areas - EstPat - Chorlito Ceniciento.jpg" alt="Picaflor Esmeralda" title="Picaflor Esmeralda" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Litoral Marítimo, Islas Australes y Antártida -->
+        <section class="areaPrincipal" id="litoralMaritimo_islasAustrales_antartida">
+            <h3 class="areaPrincipal__titulo">Litoral Marítimo, Islas Australes y Antártida</h3>
+            <div class="grid-contenedor">
+                <div class="grid-item elementoChico2">
+                    <img src="../img/Areas - LitMarAnt - Albatros Ceja Negra.jpg" alt="Martin Pescador" title="Martin Pescador" class="areaPrincipal__imagenGrande imagenAreaPrincipal wow animate__animated animate__backInLeft" id="imagenCentradaManualmente">
+                    <!-- <p class="grid-item__textoGrande">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>
+                <div class="grid-item elementoGrande2">
+                    <img src="../img/Areas - LitMarAnt - Pinguino Ojo Blanco.jpg" alt="Cabures" title="Cabures" class="areaPrincial__imagenChica imagenAreaPrincipal wow animate__animated animate__backInRight">
+                    <!-- <p class="grid-item__textoChico">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+                </div>    
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="enlacesRedesSociales">
+            <li class="enlacesRedesSociales__items wow animate__animated animate__backInUp">
+                <a href="https://www.facebook.com.ar" target="_blank"><img src="../ico/facebook.png" alt="" class="enlacesRedesSociales__items--imagen"></a>
+            </li>
+            <li class="enlacesRedesSociales__items wow animate__animated animate__backInUp">
+                <a href="https://www.instagram.com" target="_blank"><img src="../ico/instagram.png" alt="" class="enlacesRedesSociales__items--imagen"></a>
+            </li>
+            <li class="enlacesRedesSociales__items wow animate__animated animate__backInUp">
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="../ico/twitter.png" alt="" class="enlacesRedesSociales__items--imagen" id="twitter">
+                </a>
+            </li>
+        </ul>
+        <p class="hechoPor">Hecho por Gabriel...</p>
+    </footer>
+
+    <!-- Agregamos JS para utilizar Wow -->
+    <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- Agregamos script JS para bootstrap -->
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
